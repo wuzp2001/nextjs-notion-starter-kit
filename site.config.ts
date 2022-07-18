@@ -20,7 +20,7 @@ export default siteConfig({
   twitter: '',
   github: 'wuzp2001',
   linkedin: '',
-  zhihu: 'ping-jing-73-24'
+  zhihu: 'ping-jing-73-24',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
