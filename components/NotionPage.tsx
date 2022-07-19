@@ -247,13 +247,13 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
     
-   try {
-    Object.keys(recordMap.block).forEach((key) => {
-      if (recordMap.block[key].value.properties.language[0][0] === 'C++') {
-        recordMap.block[key].value.properties.language[0][0] = 'Cpp'
-      }
-    })
-  } catch (error) {}
+//    try {
+//     Object.keys(recordMap.block).forEach((key) => {
+//       if (recordMap.block[key].value.properties.language[0][0] === 'C++') {
+//         recordMap.block[key].value.properties.language[0][0] = 'Cpp'
+//       }
+//     })
+//   } catch (error) {}
 
   return (
     <>
